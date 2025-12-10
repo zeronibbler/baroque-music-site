@@ -1,5 +1,7 @@
 # 🎵 Classical Music Explorer
 
+Project for cource ATH/TECH — MODULE CODE: CCS6211
+MODULE TITLE: Front-End Application Development — MSc in Web and Mobile Development
 A multi-page HTML/CSS/JavaScript website built without frameworks.
 
 ---
