@@ -1,84 +1,108 @@
-🎵 Classical Music Explorer
+# 🎵 Classical Music Explorer
 
 A multi-page HTML/CSS/JavaScript website built without frameworks.
 
-📌 Overview
+---
 
-Classical Music Explorer is a fully client-side website designed to explore classical music, composers, and instruments.
-It includes a main page, five sub-pages, a shared template, form functionality, localStorage-based authentication, and multiple page layouts (single column, double column, triple column, single-with-aside).
+## 📌 Overview
+
+**Classical Music Explorer** is a fully client-side website designed to explore classical music, composers, and instruments. It includes a main page, five sub-pages, a shared template, form functionality, localStorage-based authentication, and multiple page layouts (single column, double column, triple column, single-with-aside).
 
 This project follows all requirements of the assignment:
-✔ Pure HTML, CSS, and JavaScript
-✔ Shared template with navigation bar, logo, footer
-✔ At least 5 sub-pages
-✔ Different layouts across pages
-✔ Form handling + local storage
-✔ Sign-Up & Sign-In
-✔ Reserved members-only page
-✔ Clean structure, comments, and validation
 
-🌐 Website Structure
-Main Page
-Hero banner
-Introduction to the world of classical music
-Navigation to all sections
-CTA button
+* ✔ Pure HTML, CSS, and JavaScript
+* ✔ Shared template with navigation bar, logo, footer
+* ✔ At least 5 sub-pages
+* ✔ Different layouts across pages
+* ✔ Form handling + local storage
+* ✔ Sign-Up & Sign-In
+* ✔ Reserved members-only page
+* ✔ Clean structure, comments, and validation
 
-Sub-Pages (Total: 5+)
-Page	    Layout	            Features
-Composers	Double column	Cards, musician info
-Instruments	Triple column	Instrument descriptions & images
-Eras	Single column with aside	Timeline + historical context
-Learn Music Theory	Single column	Embedded media, lists, tables
-Members-Only Page	Reserved	Accessible only after login
+---
 
-🧩 Features Implemented
+## 🌐 Website Structure
 
-Data saved in localStorage
-📝 Contact Form
-Validates inputs
-Stores message data in localStorage
-Prevents empty submissions with JS
+**Main Page**
 
-🔍 Interactive Components
+* Hero banner
+* Introduction to the world of classical music
+* Navigation to all sections
+* CTA button
 
-"Saved" popup when storing data
-Responsive navigation
-CSS hover effects, transitions, transforms
+**Sub-Pages (Total: 5+)**
 
-🖼 Common Template Elements
+| Page               |                   Layout | Features                         |
+| ------------------ | -----------------------: | -------------------------------- |
+| Composers          |            Double column | Cards, musician info             |
+| Instruments        |            Triple column | Instrument descriptions & images |
+| Eras               | Single column with aside | Timeline + historical context    |
+| Learn Music Theory |            Single column | Embedded media, lists, tables    |
+| Members-Only Page  |                 Reserved | Accessible only after login      |
 
-Logo
-Responsive navigation bar
-Footer with author info
-Reusable layout and shared styles
+---
 
-🛠 Technologies Used
+## 🧩 Features Implemented
 
-HTML
-headings, images, lists, tables
-semantic layout: <article>, <section>, <aside>, <nav>, <footer>
-forms with built-in validation
-links and media
+* Data saved in `localStorage`
+* **Contact Form**
 
-CSS
-flexbox and floats
-responsive design
-positioning
-transitions & transforms
-custom classes + IDs
-multi-column layouts
-hover styling
-mobile breakpoints
+  * Validates inputs
+  * Stores message data in `localStorage`
+  * Prevents empty submissions with JS
 
-JavaScript
-DOM manipulation
-input validation
-localStorage (auth + saved content)
-event handling
-dynamic UI updates
+---
 
-📁 Project Structure
+## 🔍 Interactive Components
+
+* "Saved" popup when storing data
+* Responsive navigation
+* CSS hover effects, transitions, transforms
+
+---
+
+## 🖼 Common Template Elements
+
+* Logo
+* Responsive navigation bar
+* Footer with author info
+* Reusable layout and shared styles
+
+---
+
+## 🛠 Technologies Used
+
+**HTML**
+
+* headings, images, lists, tables
+* semantic layout: `<article>`, `<section>`, `<aside>`, `<nav>`, `<footer>`
+* forms with built-in validation
+* links and media
+
+**CSS**
+
+* flexbox and floats
+* responsive design
+* positioning
+* transitions & transforms
+* custom classes + IDs
+* multi-column layouts
+* hover styling
+* mobile breakpoints
+
+**JavaScript**
+
+* DOM manipulation
+* input validation
+* `localStorage` (auth + saved content)
+* event handling
+* dynamic UI updates
+
+---
+
+## 📁 Project Structure
+
+```
 /project-root
 │── index.html
 │── composers.html
@@ -99,32 +123,46 @@ dynamic UI updates
 │   └── contact.js
 │
 └── images/
+```
 
-📋 Validation & Code Quality
+---
 
-All pages formatted with consistent indentation
-CSS is structured and grouped
-JavaScript includes descriptive function names
-Inline comments explain non-obvious logic
-HTML and CSS validated using W3C validators
+## 📋 Validation & Code Quality
 
-Removed unused selectors and obsolete attributes
+* All pages formatted with consistent indentation
+* CSS is structured and grouped
+* JavaScript includes descriptive function names
+* Inline comments explain non-obvious logic
+* HTML and CSS validated using W3C validators
 
-📚 Documentation
+Removed unused selectors and obsolete attributes.
+
+---
+
+## 📚 Documentation
+
 A full PDF report accompanies this website, covering:
-Design decisions
-Template structure
-Layout variations
-Feature implementation
-Code samples
-Validation notes
-Reflection on challenges
 
-🚀 How to Run
-Download or clone the repository
-Open index.html in your browser
-Explore all sections!
+* Design decisions
+* Template structure
+* Layout variations
+* Feature implementation
+* Code samples
+* Validation notes
+* Reflection on challenges
 
-👤 Author
-Eirini Spanopoulou
-Classical Music Explorer — HTML/CSS/JS Project
+---
+
+## 🚀 How to Run
+
+1. Download or clone the repository
+2. Open `index.html` in your browser
+3. Explore all sections!
+
+---
+
+## 👤 Author
+
+**Eirini Spanopoulou**
+
+*Classical Music Explorer — HTML/CSS/JS Project*
