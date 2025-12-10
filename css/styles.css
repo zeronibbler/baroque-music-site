@@ -1,0 +1,97 @@
+/* root variables for html element */
+:root {
+    --accent: #bfa14b;  /* accent color for buttons */
+    --bg: #fefefe;      /* page background color  */
+    --text: #222;        /* text color */
+}
+
+/* universal selector */
+* {
+    box-sizing: border-box; /* padding and border for width and height */
+}
+
+/* styling for body */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* default font family */
+    margin: 0;                                 /* default browser margin */
+    background: var(--bg);                     /* background color variable */
+    color: var(--text);                        /* text color variable */
+    line-height: 1.6;                          /* to improve readability */
+}
+
+/* container class */
+.container {
+    width: min(92%, 1000px); /* container width, max 1000px and shrink on smaller screens */
+    margin: 0 auto;           /* center horizontally */
+    padding: 20px;            /* padding for inner container spacing */
+}
+
+/* header */
+header {
+    border-bottom: 1px solid #eee; /* bottom border */
+    padding: 10px 0;               /* vertical padding */
+}
+
+/* logo */
+.logo {
+    display: inline-block; /* inline with nav */
+    font-weight: 700;      /* make text bold */
+}
+
+/* navigation */
+nav {
+    float: right; /* float nav to the right */
+}
+
+nav a {
+    margin-left: 12px;          /* spacing between links */
+    text-decoration: none;      /* remove decoration */
+    color: var(--text);         /* use text color */
+}
+
+/* hero section */
+.hero {
+    padding: 40px 0; /* spacing for top/bottom */
+}
+
+/* call-to-action buttons */
+.cta {
+    background: var(--accent);  /* background accent color  */
+    color: #fff;                /* white text */
+    padding: 8px 12px;          /* padding for buttons */
+    border-radius: 6px;         /* rounded corners */
+    text-decoration: none;      /* no underline */
+}
+
+/* popup message */
+.popup {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease, transform 0.3s ease;
+    z-index: 999999; /* highest possible */
+}
+
+.popup.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(10px);
+}
+
+
+
+/* footer */
+footer {
+    border-top: 1px solid #eee; /* top border */
+    text-align: center;          /* center content */
+    padding: 10px 0;             /* padding vertical */
+    margin-top: 40px;            /* spacing from main content */
+}

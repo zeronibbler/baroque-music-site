@@ -1,0 +1,138 @@
+<!-- Declares that this is an HTML5 document -->
+<!doctype html>
+
+<!-- lang attribute specifies English as the language -->
+<html lang="en">
+
+<!-- the metadata and resources for the document -->
+<head>
+    <!-- put character encoding to UTF-8 for char support -->
+    <meta charset="utf-8">
+    <!-- make responsive -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- title of page shows on browser and search engine -->
+    <title>Baroque Music Composers</title>
+    <!-- link page to external css file for page styling -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<!-- start point of page content -->
+<body>
+
+<!-- header section top of page content -->
+<header>
+    <!-- container, keeps content centered and gives some space around it -->
+    <div class="container">
+
+        <!-- site logo -->
+        <h1 class="logo">Baroque Music Composers</h1>
+
+        <!-- main navigation menu -->
+        <nav>
+            <!-- nav element with links to other pages -->
+            <a href="index.html">Home</a>
+            <a href="history.html">History</a>
+            <a href="composers.html">Composers</a>
+            <a href="instruments.html">Instruments</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<!-- main content container that holds main sections of page -->
+<main class="container">
+    <!-- secondary heading -->
+    <h2>Famous Baroque Composers</h2>
+
+    <!-- flex container to put composers -->
+    <div style="display:flex; flex-wrap: wrap; gap:20px;">
+
+        <!-- Johann Sebastian Bach -->
+        <div style="flex:1; min-width: 300px;">
+            <h3>Johann Sebastian Bach</h3>
+            <p>Bach was a German composer renowned for his intricate counterpoint.</p>
+            <section>
+                <h4>Listen to Bach</h4>
+                <p>Johann Sebastian Bach's Brandenburg Concerto No.3 is lively and fun!</p>
+                <!-- embedded YouTube video for listening -->
+                <iframe width="100%" height="315"
+                        src="https://www.youtube.com/embed/qr0f6t2UbOo"
+                        title="Bach Brandenburg Concerto No.3"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                </iframe>
+            </section>
+        </div>
+
+        <!-- Antonio Vivaldi -->
+        <div style="flex:1; min-width: 300px;">
+            <h3>Antonio Vivaldi</h3>
+            <p>Vivaldi was an Italian composer and violinist, famous for The Four Seasons.</p>
+            <section>
+                <h4>Listen to Vivaldi</h4>
+                <p>The Four Seasons is full of expressive contrasts and vivid imagery.</p>
+                <!-- embedded youtube video for listening -->
+                <iframe width="100%" height="315"
+                        src="https://www.youtube.com/embed/GRxofEmo3HA"
+                        title="Vivaldi The Four Seasons"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                </iframe>
+            </section>
+        </div>
+
+        <!-- Johann Pachelbel -->
+        <div style="flex:1; min-width: 300px;">
+            <h3>Johann Pachelbel</h3>
+            <p>Pachelbel was a German composer best known for Canon in D.</p>
+            <section>
+                <h4>Listen to Pachelbel</h4>
+                <p>Pachelbel's Canon in D is soft, calming, and very repetitive—great for study.</p>
+                <!-- embedded youtube video for listening -->
+                <iframe width="100%" height="315"
+                        src="https://www.youtube.com/embed/NlprozGcs80"
+                        title="Pachelbel Canon in D"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                </iframe>
+            </section>
+        </div>
+
+        <!-- George Frideric Handel -->
+        <div style="flex:1; min-width: 300px;">
+            <h3>George Frideric Handel</h3>
+            <p>Handel was a German-British composer famous for his operas, oratorios, and concerti grossi.</p>
+            <section>
+                <h4>Listen to Handel</h4>
+                <p>Handel's Messiah (Hallelujah Chorus) is one of the most famous Baroque pieces.</p>
+                <!-- embedded youtube video for listening -->
+                <iframe width="100%" height="315"
+                        src="https://www.youtube.com/embed/vNZHjSVSEMA"
+                        title="Handel Messiah Hallelujah"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                </iframe>
+            </section>
+        </div>
+
+    </div>
+
+    <!-- link call-to-action class to instruments page in the middle, after the songs -->
+    <p style="text-align: center; margin: 40px 0;">
+        <a class="cta" href="instruments.html">Meet the Baroque Instruments</a>
+    </p>
+</main>
+
+<!-- the footer of the page -->
+<footer>
+    <p>Eirini Spanopoulou — MSc Web & Mobile Development</p>
+</footer>
+
+<!-- link to external JavaScript file -->
+<script src="js/main.js"></script>
+</body>
+</html>

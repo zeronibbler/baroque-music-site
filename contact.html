@@ -1,0 +1,95 @@
+<!-- Declares that this is an HTML5 document -->
+<!doctype html>
+
+<!-- lang attribute specifies English as the language -->
+<html lang="en">
+
+<!-- the metadata and resources for the document -->
+<head>
+    <!-- put character encoding to UTF-8 for char support -->
+    <meta charset="utf-8">
+    <!-- make responsive -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- title of page shows on browser and search engine -->
+    <title>Contact</title>
+    <!-- link page to external css file for page styling -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<!-- start point of page content -->
+<body>
+
+<!-- header section top of page content -->
+<header>
+    <!-- container, keeps content centered and gives some space around it -->
+    <div class="container">
+
+        <!-- site logo -->
+        <h1 class="logo">Baroque Music Contact Form</h1>
+
+        <!-- main navigation menu -->
+        <nav>
+            <!-- nav element with links to other pages -->
+            <a href="index.html">Home</a>
+            <a href="history.html">History</a>
+            <a href="composers.html">Composers</a>
+            <a href="instruments.html">Instruments</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<!-- main content of the page -->
+<main class="container">
+
+    <!-- secondary heading -->
+    <h2>Contact Us</h2>
+
+    <!-- contact form -->
+    <form id="contactForm">
+
+        <!-- name input field -->
+        <label>Name:<br>
+            <input type="text" name="name" required>
+        </label>
+        <br><br>
+
+        <!-- email input field validates basic email format -->
+        <label>Email:<br>
+            <input type="email" name="email" required>
+        </label>
+        <br><br>
+
+        <!-- message field -->
+        <label>Message:<br>
+            <textarea name="message" rows="5" required></textarea>
+        </label>
+        <br><br>
+
+        <!-- submit button to fake send form -->
+        <button type="submit">Send</button>
+    </form>
+</main>
+
+<!-- infile js for form submission -->
+<script>
+    // find form on the page named contactForm and listen for when the form tries to be submitted
+    document.getElementById('contactForm').addEventListener('submit', function(e){
+
+        // stop the form from sending anywhere
+        e.preventDefault();
+
+        // pop up alert with message
+        alert('Thank you! Your message has been sent.');
+    });
+</script>
+
+<!-- the footer of the page -->
+<footer>
+    <p>Eirini Spanopoulou — MSc Web & Mobile Development</p>
+</footer>
+
+<!-- link to external JavaScript file -->
+<script src="js/main.js"></script>
+</body>
+</html>
